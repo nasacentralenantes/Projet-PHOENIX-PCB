@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "nasa_footprint")(type "KiCad")(uri "C:/Users/amest/Documents/alexandre/cours/centrale/nasa/electronique/lib/nasa_footprint.pretty")(options "")(descr ""))
+)

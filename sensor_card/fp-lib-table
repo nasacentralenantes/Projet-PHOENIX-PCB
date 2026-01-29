@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "sensor_card-backups")(type "KiCad")(uri "${KIPRJMOD}/sensor_card-backups.pretty")(options "")(descr ""))
+)
