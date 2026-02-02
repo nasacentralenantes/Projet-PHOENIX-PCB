@@ -886,7 +886,7 @@
 				(pin bidirectional line
 					(at -5.08 -15.24 90)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -904,7 +904,7 @@
 				(pin bidirectional line
 					(at -2.54 -15.24 90)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -922,7 +922,7 @@
 				(pin bidirectional line
 					(at 0 -15.24 90)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -940,7 +940,7 @@
 				(pin bidirectional line
 					(at 2.54 -15.24 90)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -958,7 +958,7 @@
 				(pin bidirectional line
 					(at 5.08 -15.24 90)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -976,7 +976,7 @@
 				(pin bidirectional line
 					(at 16.51 10.16 180)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -994,7 +994,7 @@
 				(pin bidirectional line
 					(at 16.51 7.62 180)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1012,7 +1012,7 @@
 				(pin bidirectional line
 					(at 16.51 5.08 180)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1030,7 +1030,7 @@
 				(pin bidirectional line
 					(at 16.51 2.54 180)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1048,7 +1048,7 @@
 				(pin bidirectional line
 					(at 16.51 0 180)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1066,7 +1066,7 @@
 				(pin bidirectional line
 					(at 16.51 -2.54 180)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1084,7 +1084,7 @@
 				(pin bidirectional line
 					(at 16.51 -5.08 180)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1102,7 +1102,7 @@
 				(pin bidirectional line
 					(at 16.51 -7.62 180)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1120,7 +1120,7 @@
 				(pin bidirectional line
 					(at 16.51 -10.16 180)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2108,8 +2108,56 @@
 		(uuid "c91f0c43-556f-4f40-8b8f-f619d905acb7")
 	)
 	(no_connect
+		(at 58.42 106.68)
+		(uuid "33984651-3831-4daf-9f8f-dc8957a946ba")
+	)
+	(no_connect
+		(at 58.42 111.76)
+		(uuid "41cc8c05-3135-47be-983a-7a96994c20a6")
+	)
+	(no_connect
+		(at 58.42 101.6)
+		(uuid "4e653715-da26-47a1-be91-15def3b1c81a")
+	)
+	(no_connect
+		(at 58.42 109.22)
+		(uuid "562f3f05-ef3a-43cc-a875-28b9d72ceee6")
+	)
+	(no_connect
+		(at 58.42 104.14)
+		(uuid "5e6aaf17-f1d9-46de-b5e8-abfbb1293e5d")
+	)
+	(no_connect
+		(at 80.01 119.38)
+		(uuid "8f67a4a1-7423-4180-85f5-11997eb9f63d")
+	)
+	(no_connect
+		(at 91.44 114.3)
+		(uuid "a6481453-1e06-456d-b2b4-489440e1c6fe")
+	)
+	(no_connect
+		(at 77.47 119.38)
+		(uuid "a8fb46b9-d504-4444-8126-cccc74d94767")
+	)
+	(no_connect
+		(at 91.44 99.06)
+		(uuid "b652a706-6fe8-4c00-b66b-d305b903d418")
+	)
+	(no_connect
+		(at 58.42 114.3)
+		(uuid "c2fede34-b846-4542-b276-855e735a6b3a")
+	)
+	(no_connect
+		(at 203.2 90.17)
+		(uuid "c3298ad6-26e2-43c8-8af2-4e366c62e973")
+	)
+	(no_connect
 		(at 203.2 82.55)
 		(uuid "d15c518d-b6d5-4e61-bce8-d3ba3f2f83b4")
+	)
+	(no_connect
+		(at 69.85 119.38)
+		(uuid "d9c7dbe0-3518-4003-b18a-99347a5b4210")
 	)
 	(wire
 		(pts
@@ -2203,6 +2251,26 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 106.68) (xy 106.68 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fcb8723-b835-4b96-931d-2dd41700bbbb")
+	)
+	(wire
+		(pts
+			(xy 91.44 104.14) (xy 99.06 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c0f4e85-7fab-4819-bf6f-c53c2d7c0a00")
+	)
+	(wire
+		(pts
 			(xy 111.76 41.91) (xy 114.3 41.91)
 		)
 		(stroke
@@ -2220,6 +2288,16 @@
 			(type default)
 		)
 		(uuid "969da1cd-846c-4e70-b789-1d154619134c")
+	)
+	(wire
+		(pts
+			(xy 91.44 106.68) (xy 106.68 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce690ac4-979c-4229-b14d-50b34c043c83")
 	)
 	(wire
 		(pts
@@ -2241,8 +2319,8 @@
 		)
 		(uuid "0e39389b-df2e-4143-998f-325e25b31dc7")
 	)
-	(label "TMC_TX"
-		(at 186.69 90.17 180)
+	(label "TMC_IO"
+		(at 203.2 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2272,7 +2350,7 @@
 		(uuid "40087033-07bf-41ba-9aa2-e60b4f468319")
 	)
 	(label "LED_READY"
-		(at 33.02 120.65 180)
+		(at 72.39 119.38 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2292,14 +2370,24 @@
 		(uuid "4962f002-faf0-4230-8607-592a2d77620e")
 	)
 	(label "TMC_EN"
-		(at 33.02 116.84 180)
+		(at 91.44 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "5614fdc3-e026-4667-b94d-ed24a62b65e9")
+		(uuid "535390dd-9332-45a0-bd80-4025abf55775")
+	)
+	(label "TMC_IO"
+		(at 106.68 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53561d12-0607-456a-910b-80d45ec3f8f0")
 	)
 	(label "MS2"
 		(at 203.2 97.79 180)
@@ -2312,12 +2400,12 @@
 		(uuid "69c40331-b4ae-46e6-b76d-d6b30f89478f")
 	)
 	(label "TMC_STEP"
-		(at 34.29 101.6 180)
+		(at 91.44 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "6d8b8fbb-796c-4156-bac9-6873e25d128d")
 	)
@@ -2332,7 +2420,7 @@
 		(uuid "73f3ac16-313b-4bc4-9d9e-9e35ce7eb72a")
 	)
 	(label "endstop"
-		(at 34.29 113.03 180)
+		(at 74.93 119.38 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2361,26 +2449,6 @@
 		)
 		(uuid "8c6bb1b4-ba93-4b7a-b2d5-9a385120e636")
 	)
-	(label "TMC_TX"
-		(at 34.29 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8ee83699-2fa3-4c88-9981-8eca71a7b015")
-	)
-	(label "TMC_RX"
-		(at 34.29 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "98fa0c1c-88e6-4ff3-b401-21baa3645613")
-	)
 	(label "TMC_STEP"
 		(at 203.2 74.93 180)
 		(effects
@@ -2391,33 +2459,23 @@
 		)
 		(uuid "a46eb005-09c8-474c-8acd-8d15d795cf47")
 	)
-	(label "TMC_RX"
-		(at 185.42 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bf26fbb7-4284-4818-8a6b-4b3e98e79c8b")
-	)
 	(label "TMC_DIR"
-		(at 34.29 104.14 180)
+		(at 91.44 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "c3c869f8-3da3-4e15-81e9-3d02734846e7")
 	)
 	(label "SCL"
-		(at 31.75 93.98 180)
+		(at 91.44 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d774e6f7-1f9e-468e-866d-7ff038e6e6c2")
 	)
@@ -2442,12 +2500,12 @@
 		(uuid "ee6ce2b6-f69e-49b0-8fef-3c828deb1f19")
 	)
 	(label "SDA"
-		(at 31.75 96.52 180)
+		(at 91.44 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "fae7bf34-1dbf-42b9-a46e-9df22c909cf7")
 	)
@@ -3595,7 +3653,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 190.5 90.17 0)
+		(at 102.87 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3604,25 +3662,23 @@
 		(fields_autoplaced yes)
 		(uuid "568fbc64-5e23-46e7-b8ef-d0bc38642c80")
 		(property "Reference" "R2"
-			(at 193.04 88.8999 0)
+			(at 102.87 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "R"
-			(at 193.04 91.4399 0)
+			(at 102.87 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 188.722 90.17 90)
+			(at 102.87 105.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3631,7 +3687,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 90.17 0)
+			(at 102.87 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3640,7 +3696,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 190.5 90.17 0)
+			(at 102.87 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
