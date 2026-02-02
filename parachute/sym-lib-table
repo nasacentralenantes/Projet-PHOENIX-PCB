@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "nasa_lib")(type "KiCad")(uri "C:/Users/amest/Documents/alexandre/cours/centrale/nasa/electronique/lib/nasa_lib.kicad_sym")(options "")(descr ""))
+  (lib (name "nasa_lib")(type "KiCad")(uri "${KIPRJMOD}/../lib/nasa_lib.kicad_sym")(options "")(descr ""))
 )
