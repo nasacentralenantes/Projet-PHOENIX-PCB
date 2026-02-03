@@ -152,26 +152,6 @@
 		)
 		(uuid "18677b8f-0471-4adf-ad41-6334fd18115c")
 	)
-	(text "le signal des leds\ntransmet la puissance"
-		(exclude_from_sim no)
-		(at 141.986 89.154 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "3b540439-2bda-4785-affa-b0647ffe7ff9")
-	)
-	(text "le signal des leds\ntransmet la puissance"
-		(exclude_from_sim no)
-		(at 146.05 116.332 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "3b713437-b6de-4fa5-ac54-178a4ac3dcd2")
-	)
 	(text "transmission radio"
 		(exclude_from_sim no)
 		(at 101.346 59.69 0)
@@ -311,6 +291,36 @@
 		)
 		(uuid "d58011b4-d0fa-408a-9f1b-142492044295")
 	)
+	(text_box "batteries\n"
+		(exclude_from_sim no)
+		(at 203.2 25.4 0)
+		(size 27.94 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "da153518-5cad-4ba7-b262-778d9a7ec0ad")
+	)
+	(wire
+		(pts
+			(xy 196.85 82.55) (xy 191.77 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00866b25-f8a4-4589-a385-ce7ce16486e9")
+	)
 	(wire
 		(pts
 			(xy 196.85 78.74) (xy 196.85 77.47)
@@ -330,16 +340,6 @@
 			(type default)
 		)
 		(uuid "09ba0169-67ab-43f8-a5d7-47a6fe06da2a")
-	)
-	(bus
-		(pts
-			(xy 81.28 83.82) (xy 171.45 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11d9cfb8-b538-40c8-9538-f6fa4e51d012")
 	)
 	(wire
 		(pts
@@ -361,6 +361,16 @@
 		)
 		(uuid "200e908c-1a16-4e2c-968f-633251ae7b26")
 	)
+	(wire
+		(pts
+			(xy 191.77 82.55) (xy 191.77 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2adf1196-1803-4b09-af66-3f64bb4fd139")
+	)
 	(bus
 		(pts
 			(xy 162.56 66.04) (xy 196.85 66.04)
@@ -371,16 +381,6 @@
 		)
 		(uuid "2d8d4bf3-19f2-418f-afb4-593380d7af71")
 	)
-	(bus
-		(pts
-			(xy 171.45 83.82) (xy 171.45 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "301ccdc4-8aaf-4909-a244-caff49553f00")
-	)
 	(wire
 		(pts
 			(xy 170.18 85.09) (xy 170.18 102.87)
@@ -390,16 +390,6 @@
 			(type default)
 		)
 		(uuid "3105ff75-b681-4c6a-a796-14a01d3a272e")
-	)
-	(bus
-		(pts
-			(xy 170.18 104.14) (xy 171.45 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40a1bbc5-d882-4c32-90f7-7c65d842fe8d")
 	)
 	(bus
 		(pts
@@ -463,16 +453,6 @@
 	)
 	(bus
 		(pts
-			(xy 124.46 121.92) (xy 162.56 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8324deee-6744-4010-9646-650005bde6a3")
-	)
-	(bus
-		(pts
 			(xy 139.7 62.23) (xy 139.7 66.04)
 		)
 		(stroke
@@ -491,16 +471,6 @@
 		)
 		(uuid "89d16047-4bb4-4d14-a105-d0518bd4b4b9")
 	)
-	(bus
-		(pts
-			(xy 162.56 121.92) (xy 162.56 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afa3e2fe-1a0d-4d65-b6e0-3ed4b3fe67df")
-	)
 	(wire
 		(pts
 			(xy 33.02 181.61) (xy 60.96 181.61)
@@ -513,23 +483,13 @@
 	)
 	(bus
 		(pts
-			(xy 81.28 83.82) (xy 81.28 85.09)
+			(xy 170.18 33.02) (xy 199.39 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c25738b7-458a-46bf-ad42-10267fbf6779")
-	)
-	(bus
-		(pts
-			(xy 124.46 121.92) (xy 124.46 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e32fc8ae-74f7-4cfd-a396-2552c81cf56d")
+		(uuid "e679d170-a43d-4fc2-b54b-15718d870d5f")
 	)
 	(bus
 		(pts
@@ -674,6 +634,75 @@
 			(project "rocket"
 				(path "/32144286-21e6-4d7d-81ed-51528dac9904"
 					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 204.47 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39b54ff6-47dc-471d-8c16-baf25c83e340")
+		(property "Reference" "J17"
+			(at 205.7401 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 203.2001 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 204.47 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c960a88a-d539-4759-8082-ea82494420e2")
+		)
+		(instances
+			(project "rocket"
+				(path "/32144286-21e6-4d7d-81ed-51528dac9904"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -881,6 +910,75 @@
 			(project "rocket"
 				(path "/32144286-21e6-4d7d-81ed-51528dac9904"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 201.93 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51bd9f60-13da-4bba-91a8-0783cd7055cc")
+		(property "Reference" "J15"
+			(at 203.2001 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 200.6601 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 201.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c67de4ab-3e0b-4d88-b95d-e59b5d966606")
+		)
+		(instances
+			(project "rocket"
+				(path "/32144286-21e6-4d7d-81ed-51528dac9904"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -1364,6 +1462,144 @@
 			(project "rocket"
 				(path "/32144286-21e6-4d7d-81ed-51528dac9904"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 165.1 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bccfab34-06c3-489c-b330-3cbf78b25e6e")
+		(property "Reference" "J18"
+			(at 163.8299 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 166.3699 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 165.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d40aa865-2d9e-450e-9403-7d415d5a3727")
+		)
+		(instances
+			(project "rocket"
+				(path "/32144286-21e6-4d7d-81ed-51528dac9904"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 191.77 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d55b3376-7b91-4791-b2bb-9aa0fbbbc2b9")
+		(property "Reference" "J16"
+			(at 189.23 109.2201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 189.23 106.6801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 191.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cffefe5-4c84-4136-978c-8beb659fbcf7")
+		)
+		(instances
+			(project "rocket"
+				(path "/32144286-21e6-4d7d-81ed-51528dac9904"
+					(reference "J16")
 					(unit 1)
 				)
 			)
