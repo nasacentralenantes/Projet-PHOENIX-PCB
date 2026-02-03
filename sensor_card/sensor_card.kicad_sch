@@ -4055,7 +4055,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 130.81 149.86 0)
+		(at 172.72 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4064,7 +4064,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a2d0043-cd4b-404d-b726-3a84572fe225")
 		(property "Reference" "J6"
-			(at 133.35 149.8599 0)
+			(at 175.26 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4073,7 +4073,7 @@
 			)
 		)
 		(property "Value" "hmi"
-			(at 133.35 152.3999 0)
+			(at 175.26 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,7 +4082,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 149.86 0)
+			(at 172.72 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,7 +4091,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 149.86 0)
+			(at 172.72 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +4100,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 130.81 149.86 0)
+			(at 172.72 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,7 +5005,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 144.78 270)
+		(at 167.64 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5014,7 +5014,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2fc8202-ed79-4b86-b051-5a126f659bc9")
 		(property "Reference" "#PWR014"
-			(at 119.38 144.78 0)
+			(at 161.29 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,7 +5023,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 144.7799 90)
+			(at 163.83 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5032,7 +5032,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 144.78 0)
+			(at 167.64 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5041,7 +5041,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 144.78 0)
+			(at 167.64 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5050,7 +5050,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 144.78 0)
+			(at 167.64 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
