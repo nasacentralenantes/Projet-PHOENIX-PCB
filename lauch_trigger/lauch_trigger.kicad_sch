@@ -362,32 +362,32 @@
 		)
 	)
 	(junction
-		(at 93.98 124.46)
+		(at 111.76 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "012daa66-b579-4fbc-b102-00bf307cc455")
 	)
 	(junction
-		(at 93.98 149.86)
+		(at 111.76 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30213dfa-1d3a-4793-aa5b-632b6e7cafc5")
 	)
 	(junction
-		(at 93.98 147.32)
+		(at 111.76 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9dab84cf-914c-4371-900d-665583746440")
 	)
 	(junction
-		(at 93.98 127)
+		(at 111.76 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed72c328-e8b2-4ff8-b682-903d0ac6572b")
 	)
 	(wire
 		(pts
-			(xy 93.98 124.46) (xy 106.68 124.46)
+			(xy 111.76 72.39) (xy 124.46 72.39)
 		)
 		(stroke
 			(width 0)
@@ -397,7 +397,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 127) (xy 106.68 127)
+			(xy 111.76 74.93) (xy 124.46 74.93)
 		)
 		(stroke
 			(width 0)
@@ -407,7 +407,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 149.86) (xy 93.98 152.4)
+			(xy 111.76 97.79) (xy 111.76 100.33)
 		)
 		(stroke
 			(width 0)
@@ -417,7 +417,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 144.78) (xy 93.98 147.32)
+			(xy 111.76 92.71) (xy 111.76 95.25)
 		)
 		(stroke
 			(width 0)
@@ -427,7 +427,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 127) (xy 93.98 129.54)
+			(xy 111.76 74.93) (xy 111.76 77.47)
 		)
 		(stroke
 			(width 0)
@@ -437,7 +437,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 147.32) (xy 106.68 147.32)
+			(xy 111.76 95.25) (xy 124.46 95.25)
 		)
 		(stroke
 			(width 0)
@@ -447,7 +447,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 121.92) (xy 93.98 124.46)
+			(xy 111.76 69.85) (xy 111.76 72.39)
 		)
 		(stroke
 			(width 0)
@@ -457,7 +457,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 149.86) (xy 106.68 149.86)
+			(xy 111.76 97.79) (xy 124.46 97.79)
 		)
 		(stroke
 			(width 0)
@@ -467,7 +467,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 111.76 124.46 0)
+		(at 129.54 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -475,8 +475,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0431bc14-fce6-4b70-8549-6f07f19fa68e")
-		(property "Reference" "J2"
-			(at 114.3 124.4599 0)
+		(property "Reference" "J3"
+			(at 132.08 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -485,7 +485,7 @@
 			)
 		)
 		(property "Value" "conn_A"
-			(at 114.3 126.9999 0)
+			(at 132.08 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -493,8 +493,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 111.76 124.46 0)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 129.54 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -503,7 +503,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 124.46 0)
+			(at 129.54 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -512,7 +512,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 111.76 124.46 0)
+			(at 129.54 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -529,7 +529,7 @@
 		(instances
 			(project ""
 				(path "/da43c72e-eeb9-41e6-86d5-0075aa0ce16f"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -537,7 +537,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 111.76 147.32 0)
+		(at 129.54 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -546,7 +546,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cd0af20-3b1b-4b6e-b7c2-1021f9608df2")
 		(property "Reference" "J4"
-			(at 114.3 147.3199 0)
+			(at 132.08 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -555,7 +555,7 @@
 			)
 		)
 		(property "Value" "conn_B"
-			(at 114.3 149.8599 0)
+			(at 132.08 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -563,8 +563,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 111.76 147.32 0)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 129.54 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -573,7 +573,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 147.32 0)
+			(at 129.54 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -582,7 +582,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 111.76 147.32 0)
+			(at 129.54 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -607,7 +607,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack4")
-		(at 88.9 147.32 0)
+		(at 106.68 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -615,8 +615,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e36f1cf3-6d0e-4257-aa19-a9aea267450b")
-		(property "Reference" "J3"
-			(at 86.36 138.43 0)
+		(property "Reference" "J2"
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -624,15 +624,15 @@
 			)
 		)
 		(property "Value" "jack_B"
-			(at 86.36 140.97 0)
+			(at 104.14 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 88.9 147.32 0)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal"
+			(at 106.68 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -641,7 +641,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 147.32 0)
+			(at 106.68 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -650,7 +650,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 4 Poles (TRRS)"
-			(at 88.9 147.32 0)
+			(at 106.68 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -673,7 +673,7 @@
 		(instances
 			(project "lauch_trigger"
 				(path "/da43c72e-eeb9-41e6-86d5-0075aa0ce16f"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -681,7 +681,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack4")
-		(at 88.9 124.46 0)
+		(at 106.68 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -690,7 +690,7 @@
 		(fields_autoplaced yes)
 		(uuid "fea96712-c89e-4669-b3e5-056c4ea9a0ba")
 		(property "Reference" "J1"
-			(at 86.36 115.57 0)
+			(at 104.14 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -698,15 +698,15 @@
 			)
 		)
 		(property "Value" "jack_A"
-			(at 86.36 118.11 0)
+			(at 104.14 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 88.9 124.46 0)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal"
+			(at 106.68 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -715,7 +715,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 124.46 0)
+			(at 106.68 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -724,7 +724,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 4 Poles (TRRS)"
-			(at 88.9 124.46 0)
+			(at 106.68 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
