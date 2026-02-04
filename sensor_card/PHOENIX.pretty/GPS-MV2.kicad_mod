@@ -1,0 +1,185 @@
+(footprint "GPS-MV2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "GPS-MV2"
+		(at 14 14 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ccbbaf0f-24cb-4f7b-84e2-7501223a8044")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "GPS-MV2"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "80185150-0e5c-48ca-8f20-68e387b0e852")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdf856ee-f92b-4c3d-852f-b4b02d436392")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9286033d-f004-4ecf-a9a7-34e535aa1ce8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -17.5 -13)
+		(end 17.5 -13)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "daf0791c-64b7-4b79-90c9-3d716ffcda95")
+	)
+	(fp_line
+		(start -17.5 13)
+		(end -17.5 -13)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9f2f612f-5d6d-4200-8747-57f9c8789b7a")
+	)
+	(fp_line
+		(start 17.5 -13)
+		(end 17.5 13)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0589bc31-5881-43a6-92cd-232f719236c1")
+	)
+	(fp_line
+		(start 17.5 13)
+		(end -17.5 13)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "424dca6c-9747-4cc0-9045-13cd1d0c430a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "67a8f207-30b4-44fa-8abc-efe130bd94cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 16 3.81 180)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a483c8cf-c3ef-408f-b851-598edc1be522")
+	)
+	(pad "2" thru_hole circle
+		(at 16 1.27 180)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9583f82c-d7c1-4dd5-8538-883f9d37bcea")
+	)
+	(pad "3" thru_hole circle
+		(at 16 -1.27 180)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dc871100-32f8-4a67-a657-1ae295df444a")
+	)
+	(pad "4" thru_hole circle
+		(at 16 -3.81 180)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "01cd4e58-d18e-416d-a075-cd702785c57f")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "b694739d-82c3-4d4c-8486-39d1f5e9d310")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -17.5 -13) (xy 17.5 -13) (xy 17.5 13) (xy -17.5 13)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/PHOENIX_SENSORS/GY-NEO6MV2.step"
+		(offset
+			(xyz -1.5 -22.4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)

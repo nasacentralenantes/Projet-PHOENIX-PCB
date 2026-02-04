@@ -1,0 +1,207 @@
+(footprint "BME 280"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "BME 280"
+		(at 6 6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "70d4d852-1b4d-4c64-824d-f38e09167654")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BME 280"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f1e24507-6d35-42ab-a885-7e0987780e5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55936698-b02b-4f0d-9a0a-f2fbba3e3722")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4779c1bc-b6de-41f7-90ad-6813713a9988")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5 -6)
+		(end 10 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ca57437e-ca0b-4a90-8042-f2b653a3e773")
+	)
+	(fp_line
+		(start -5 5)
+		(end -5 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6b9ddd11-8dd8-4a1b-b03b-e89fadc8193b")
+	)
+	(fp_line
+		(start 10 -6)
+		(end 10 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "89f524b1-2cd3-4854-9e58-582e1a0ba6e8")
+	)
+	(fp_line
+		(start 10 5)
+		(end -5 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "549a842d-3f05-4f7b-b55c-7bec7724aff7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f2494e30-8c33-49eb-bf3c-61551cd34866")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 8.5 -4)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(clearance 0.37)
+		(uuid "1781e6cd-c563-473f-ab38-d40e4ecbda1c")
+	)
+	(pad "2" thru_hole circle
+		(at 6.35 -4)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(clearance 0.37)
+		(uuid "78b3ee48-aa1b-498d-96c3-5b86b9156e5c")
+	)
+	(pad "3" thru_hole circle
+		(at 3.81 -4)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(clearance 0.37)
+		(uuid "67ac72b7-949e-4851-bcea-9e5ec50e4d6f")
+	)
+	(pad "4" thru_hole circle
+		(at 1.27 -4)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(clearance 0.37)
+		(uuid "6e836d41-c76e-4bb7-bf86-9bf69d953245")
+	)
+	(pad "5" thru_hole circle
+		(at -1.27 -4)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(clearance 0.37)
+		(uuid "d6acde1a-e2d5-4db9-bc59-613a41bef92a")
+	)
+	(pad "6" thru_hole circle
+		(at -3.556 -4)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(clearance 0.37)
+		(uuid "c5bedfc2-b100-499b-ae14-e7a25e14e40c")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "fb079f21-be70-4671-a082-307d3772c281")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -5 -6) (xy 10 -6) (xy 10 5) (xy -5 5)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/PHOENIX_SENSORS/BME280_SENSOR_MODULE.step"
+		(offset
+			(xyz 2.5 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)
