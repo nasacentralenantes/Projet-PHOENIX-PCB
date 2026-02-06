@@ -2519,7 +2519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02129062-8378-47fd-a19c-c6371671c8ad")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR03"
 			(at 62.23 99.06 0)
 			(effects
 				(font
@@ -2570,7 +2570,7 @@
 		(instances
 			(project "aerofrein"
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2717,7 +2717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27c0d381-cbfe-4c1c-a642-db81cdcc6c60")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR09"
 			(at 175.26 35.56 0)
 			(effects
 				(font
@@ -2767,7 +2767,7 @@
 		(instances
 			(project ""
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "#PWR02")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2783,7 +2783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d637afa-704f-4234-9698-aba8a9b19197")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR012"
 			(at 181.61 142.24 0)
 			(effects
 				(font
@@ -2834,7 +2834,7 @@
 		(instances
 			(project "aerofrein"
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "#PWR09")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -2850,7 +2850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36acfc40-7cff-43a9-a64c-f5cc29e5523b")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR021"
 			(at 242.57 137.16 0)
 			(effects
 				(font
@@ -2901,7 +2901,7 @@
 		(instances
 			(project "aerofrein"
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "#PWR016")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -2917,7 +2917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ba0a78c-f90f-455a-947b-6c35cae1e188")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR018"
 			(at 218.44 71.12 0)
 			(effects
 				(font
@@ -2967,7 +2967,7 @@
 		(instances
 			(project "aerofrein"
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "#PWR07")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2983,7 +2983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43abe29a-6570-4fd0-a24a-4ab33bd7eb8d")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 223.52 43.1799 0)
 			(effects
 				(font
@@ -3001,7 +3001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 220.98 43.18 0)
 			(effects
 				(font
@@ -3037,7 +3037,7 @@
 		(instances
 			(project "aerofrein"
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3053,7 +3053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44339e39-883b-4ad4-97a9-24890816efc4")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 124.46 39.3699 0)
 			(effects
 				(font
@@ -3071,7 +3071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 121.92 39.37 0)
 			(effects
 				(font
@@ -3107,7 +3107,7 @@
 		(instances
 			(project ""
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3123,7 +3123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4931e154-a92f-4558-845b-512a2103e811")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR01"
 			(at 62.23 93.98 0)
 			(effects
 				(font
@@ -3174,7 +3174,7 @@
 		(instances
 			(project "aerofrein"
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "#PWR019")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3190,7 +3190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49677903-0c3e-45f0-a34e-7020fa6b0f8f")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR011"
 			(at 182.88 35.56 0)
 			(effects
 				(font
@@ -3240,7 +3240,7 @@
 		(instances
 			(project ""
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "#PWR04")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3256,7 +3256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49e49d7d-c944-42d3-a763-4e60507e1af8")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR010"
 			(at 179.07 35.56 0)
 			(effects
 				(font
@@ -3306,7 +3306,7 @@
 		(instances
 			(project ""
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "#PWR03")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3322,7 +3322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c047ba8-4f7d-4bae-b9cd-96a0f61f651f")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 227.33 149.86 0)
 			(effects
 				(font
@@ -3373,7 +3373,7 @@
 		(instances
 			(project "aerofrein"
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -3455,7 +3455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fcc1c97-9cad-4948-9686-3e9af30a86c2")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 219.71 45.72 0)
 			(effects
 				(font
@@ -3506,7 +3506,7 @@
 		(instances
 			(project "aerofrein"
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3522,7 +3522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53e26a06-d6d5-47bf-9f8f-eb6193027eaa")
-		(property "Reference" "J2"
+		(property "Reference" "J7"
 			(at 256.54 151.1299 0)
 			(effects
 				(font
@@ -3540,7 +3540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 254 152.4 0)
 			(effects
 				(font
@@ -3579,7 +3579,7 @@
 		(instances
 			(project ""
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "J2")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -3595,7 +3595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54c77639-605a-4788-9d45-c3ce5ae131a4")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 215.9 71.12 0)
 			(effects
 				(font
@@ -3645,7 +3645,7 @@
 		(instances
 			(project "aerofrein"
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3661,7 +3661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "568fbc64-5e23-46e7-b8ef-d0bc38642c80")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 102.87 97.79 90)
 			(effects
 				(font
@@ -3677,7 +3677,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 102.87 105.918 90)
 			(effects
 				(font
@@ -3713,7 +3713,7 @@
 		(instances
 			(project "aerofrein"
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3729,7 +3729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a70a354-2dea-4d89-af49-1d0d667213b1")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR013"
 			(at 191.77 144.78 0)
 			(effects
 				(font
@@ -3780,7 +3780,7 @@
 		(instances
 			(project "aerofrein"
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "#PWR08")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3796,7 +3796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6381a7fe-da50-45f1-94f8-2613a1d3e12a")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 220.5833 107.95 0)
 			(effects
 				(font
@@ -3892,7 +3892,7 @@
 		(instances
 			(project ""
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3974,7 +3974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a167e07-36aa-4ba7-a516-1c81477c3b62")
-		(property "Reference" "J7"
+		(property "Reference" "J2"
 			(at 137.16 138.4299 0)
 			(effects
 				(font
@@ -3992,7 +3992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 134.62 139.7 0)
 			(effects
 				(font
@@ -4031,7 +4031,7 @@
 		(instances
 			(project "aerofrein"
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "J7")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4047,7 +4047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d3ae497-2a02-40cb-a462-ab1e694dae72")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR04"
 			(at 114.3 45.72 0)
 			(effects
 				(font
@@ -4097,7 +4097,7 @@
 		(instances
 			(project "aerofrein"
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "#PWR012")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4113,7 +4113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "857c80cb-8154-45d8-968d-5dceedde29f4")
-		(property "Reference" "J1"
+		(property "Reference" "J6"
 			(at 256.54 138.4299 0)
 			(effects
 				(font
@@ -4131,7 +4131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 254 139.7 0)
 			(effects
 				(font
@@ -4170,7 +4170,7 @@
 		(instances
 			(project ""
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "J1")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -4186,7 +4186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88078738-2f7b-499c-9b67-b968cb3f1989")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR02"
 			(at 52.07 96.52 0)
 			(effects
 				(font
@@ -4237,7 +4237,7 @@
 		(instances
 			(project "aerofrein"
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "#PWR06")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4253,7 +4253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ae4fcd0-91ac-4240-8f1b-132b27723331")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 195.58 144.7799 0)
 			(effects
 				(font
@@ -4271,7 +4271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 193.04 144.78 0)
 			(effects
 				(font
@@ -4313,7 +4313,7 @@
 		(instances
 			(project ""
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4329,7 +4329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93936a3b-18df-4ea7-b282-812091de0137")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 209.55 43.18 0)
 			(effects
 				(font
@@ -4380,7 +4380,7 @@
 		(instances
 			(project "aerofrein"
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4414,7 +4414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 245.11 87.63 0)
 			(effects
 				(font
@@ -4472,7 +4472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1d18f17-9445-441b-b015-d7baae96c635")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 203.2 105.4099 0)
 			(effects
 				(font
@@ -4490,7 +4490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 198.882 106.68 90)
 			(effects
 				(font
@@ -4526,7 +4526,7 @@
 		(instances
 			(project "aerofrein"
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4542,7 +4542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5dbeea2-2b09-44cc-b395-a2c95a5e448e")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR05"
 			(at 110.49 39.37 0)
 			(effects
 				(font
@@ -4593,7 +4593,7 @@
 		(instances
 			(project "aerofrein"
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "#PWR011")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4675,7 +4675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b918c0f7-8ed2-43d2-b854-9789a741f086")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR08"
 			(at 171.45 45.72 0)
 			(effects
 				(font
@@ -4725,7 +4725,7 @@
 		(instances
 			(project ""
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "#PWR01")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4741,7 +4741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d112bf46-9bdd-4311-913e-c6147359f586")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR014"
 			(at 200.66 106.68 0)
 			(effects
 				(font
@@ -4791,7 +4791,7 @@
 		(instances
 			(project "aerofrein"
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "#PWR020")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4807,7 +4807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0108559-2a1c-423e-a1ec-5f0e09b2f8b5")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR019"
 			(at 218.44 114.3 0)
 			(effects
 				(font
@@ -4857,7 +4857,7 @@
 		(instances
 			(project "aerofrein"
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "#PWR010")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4873,7 +4873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e545c3af-6d79-47e9-bd46-0dddc5d8b173")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 227.33 143.51 90)
 			(effects
 				(font
@@ -4889,7 +4889,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 227.33 151.638 90)
 			(effects
 				(font
@@ -4925,7 +4925,7 @@
 		(instances
 			(project "aerofrein"
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4941,7 +4941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8a4309a-493a-414d-802d-a3ffc305e1d5")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR022"
 			(at 242.57 149.86 0)
 			(effects
 				(font
@@ -4992,7 +4992,7 @@
 		(instances
 			(project "aerofrein"
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "#PWR017")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5008,7 +5008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9fbc2a8-be29-40cf-951e-581bbef68ca8")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 116.84 44.4499 0)
 			(effects
 				(font
@@ -5026,7 +5026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 112.522 45.72 90)
 			(effects
 				(font
@@ -5062,7 +5062,7 @@
 		(instances
 			(project ""
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5078,7 +5078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecfe52d8-cff3-46f3-81e7-e78ca5b42bbb")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR06"
 			(at 123.19 137.16 0)
 			(effects
 				(font
@@ -5129,7 +5129,7 @@
 		(instances
 			(project "aerofrein"
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "#PWR021")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5211,7 +5211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6b7d1e8-4c50-4414-b149-79ca8d75b013")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR07"
 			(at 133.35 139.7 0)
 			(effects
 				(font
@@ -5262,7 +5262,7 @@
 		(instances
 			(project "aerofrein"
 				(path "/08594bfa-d771-44be-9d26-e8cb68944e48"
-					(reference "#PWR022")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
