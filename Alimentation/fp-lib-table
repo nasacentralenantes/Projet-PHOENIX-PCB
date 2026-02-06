@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PHOENIX")(type "KiCad")(uri "${KIPRJMOD}/PHOENIX.pretty")(options "")(descr ""))
+  (lib (name "PHOENIX_CON")(type "KiCad")(uri "${KIPRJMOD}/Connector_AMASS.pretty")(options "")(descr ""))
+)
