@@ -518,206 +518,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x02_Counter_Clockwise"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_02x02_Counter_Clockwise"
-				(at 1.27 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_02x02_Counter_Clockwise_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 3.81 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -842,7 +642,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Isolator:Optocoupler_DC_PhotoNPN_AKEC"
+		(symbol "Isolator:LTV-814"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -855,7 +658,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Optocoupler_DC_PhotoNPN_AKEC"
+			(property "Value" "LTV-814"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -864,7 +667,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
 				(at -5.08 -5.08 0)
 				(effects
 					(font
@@ -875,8 +678,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-70-96-0013/LTV-8X4%20series%20201509.pdf"
+				(at 1.905 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -885,7 +688,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic DC optocoupler with NPN phototransistor output, pins order: anode/cathode/emitter/collector"
+			(property "Description" "AC/DC Optocoupler, Vce 35V, CTR 20%, DIP4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -894,7 +697,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN DC Optocoupler"
+			(property "ki_keywords" "NPN AC DC Optocoupler"
 				(at 0 0 0)
 				(effects
 					(font
@@ -912,7 +715,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Optocoupler_DC_PhotoNPN_AKEC_0_1"
+			(symbol "LTV-814_0_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
@@ -926,8 +729,19 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -1.27) (xy -2.54 0.635)
+						(xy -5.08 2.54) (xy -1.27 2.54) (xy -1.27 -0.762)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.175 2.54)
+					(radius 0.127)
 					(stroke
 						(width 0)
 						(type default)
@@ -938,7 +752,30 @@
 				)
 				(polyline
 					(pts
-						(xy -3.175 -0.635) (xy -1.905 -0.635)
+						(xy -3.175 2.54) (xy -3.175 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.175 -2.54)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -0.635) (xy -0.635 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -950,7 +787,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
+						(xy -1.27 -0.635) (xy -1.27 -2.54) (xy -5.08 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -962,7 +799,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
+						(xy -1.27 -0.635) (xy -1.905 0.635) (xy -0.635 0.635) (xy -1.27 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -974,7 +811,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
+						(xy 0.127 0.508) (xy 1.397 0.508) (xy 1.016 0.381) (xy 1.016 0.635) (xy 1.397 0.508)
 					)
 					(stroke
 						(width 0)
@@ -986,7 +823,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
+						(xy 0.127 -0.508) (xy 1.397 -0.508) (xy 1.016 -0.635) (xy 1.016 -0.381) (xy 1.397 -0.508)
 					)
 					(stroke
 						(width 0)
@@ -1069,7 +906,31 @@
 					)
 				)
 			)
-			(symbol "Optocoupler_DC_PhotoNPN_AKEC_1_1"
+			(symbol "LTV-814_1_1"
+				(polyline
+					(pts
+						(xy -3.81 0.635) (xy -2.54 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 0.635) (xy -3.81 -0.635) (xy -2.54 -0.635) (xy -3.175 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -2111,12 +1972,6 @@
 		(color 0 0 0 0)
 		(uuid "3a96e9a3-d356-4854-bfc7-00e5b72f6285")
 	)
-	(junction
-		(at 83.82 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8585a63-fcd2-4819-b111-92ee6fed1fd1")
-	)
 	(no_connect
 		(at 195.58 110.49)
 		(uuid "071edc87-d3f2-4a1a-99cc-dd447e4a02d6")
@@ -2185,26 +2040,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 121.92) (xy 111.76 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05002b75-bd96-4e63-862f-3b6e589d07f1")
-	)
-	(wire
-		(pts
-			(xy 83.82 119.38) (xy 88.9 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fe2fb97-7111-4d9a-a45c-03f7fea42001")
-	)
-	(wire
-		(pts
 			(xy 152.4 39.37) (xy 153.67 39.37)
 		)
 		(stroke
@@ -2225,16 +2060,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 121.92) (xy 88.9 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d097237-fa67-4af4-9f2f-ed33d5c8c611")
-	)
-	(wire
-		(pts
 			(xy 161.29 39.37) (xy 163.83 39.37)
 		)
 		(stroke
@@ -2242,16 +2067,6 @@
 			(type default)
 		)
 		(uuid "3218ae11-3d21-4c0c-812c-8a1f5c73e3df")
-	)
-	(wire
-		(pts
-			(xy 101.6 119.38) (xy 111.76 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "379aa51c-1092-4044-b024-49499dbdec45")
 	)
 	(wire
 		(pts
@@ -2345,6 +2160,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 69.85) (xy 139.7 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd9663c3-a279-4145-a584-f31af2616c21")
+	)
+	(wire
+		(pts
 			(xy 163.83 69.85) (xy 173.99 69.85)
 		)
 		(stroke
@@ -2382,16 +2207,6 @@
 			(type default)
 		)
 		(uuid "e260c8e1-3891-4fe8-91d4-237fb6a65753")
-	)
-	(wire
-		(pts
-			(xy 78.74 119.38) (xy 83.82 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8eaa424-6892-480e-a0f0-e0012fb9e121")
 	)
 	(wire
 		(pts
@@ -2609,7 +2424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e4565bb-d0fc-4d11-88e1-4ada5eb24261")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 179.07 87.63 0)
 			(effects
 				(font
@@ -2724,7 +2539,7 @@
 		(instances
 			(project ""
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2740,7 +2555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "353dfcf8-f54a-4da9-b104-1a7a019799be")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR013"
 			(at 142.24 64.77 0)
 			(effects
 				(font
@@ -2791,7 +2606,7 @@
 		(instances
 			(project "parachute"
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "#PWR018")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -2816,7 +2631,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "battery"
+		(property "Value" "power"
 			(at 71.12 121.9199 0)
 			(effects
 				(font
@@ -2825,7 +2640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 73.66 119.38 0)
 			(effects
 				(font
@@ -2877,7 +2692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d608f89-94f3-43b8-a778-70fac4dfcc1d")
-		(property "Reference" "J4"
+		(property "Reference" "J1"
 			(at 39.37 76.1999 0)
 			(effects
 				(font
@@ -2895,7 +2710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
 			(at 36.83 77.47 0)
 			(effects
 				(font
@@ -2934,7 +2749,7 @@
 		(instances
 			(project ""
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "J4")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2950,7 +2765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f076fe0-41ce-456f-ad62-d19c2f3362c5")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR07"
 			(at 85.09 77.47 0)
 			(effects
 				(font
@@ -3001,7 +2816,7 @@
 		(instances
 			(project "parachute"
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "#PWR016")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3017,7 +2832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "452a9b16-932f-4f8d-baf5-4ce1364e9eef")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR01"
 			(at 25.4 74.93 0)
 			(effects
 				(font
@@ -3068,7 +2883,7 @@
 		(instances
 			(project "parachute"
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "#PWR08")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3093,7 +2908,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 137.16 44.4499 0)
 			(effects
 				(font
@@ -3102,7 +2917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 132.842 43.18 90)
 			(effects
 				(font
@@ -3220,7 +3035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bfcb7fc-7d9a-4c23-97b1-56e6bb141012")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 74.93 74.93 0)
 			(effects
 				(font
@@ -3271,7 +3086,7 @@
 		(instances
 			(project "parachute"
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3287,7 +3102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "509f08ed-96d1-4a23-b124-f14799cd8190")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR011"
 			(at 134.62 21.59 0)
 			(effects
 				(font
@@ -3337,7 +3152,7 @@
 		(instances
 			(project "parachute"
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "#PWR04")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3420,7 +3235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55dc5af4-8f1f-4195-9b91-250ad3360e1d")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 77.47 46.99 0)
 			(effects
 				(font
@@ -3470,7 +3285,7 @@
 		(instances
 			(project ""
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3553,7 +3368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b67bd2a-9501-41d4-8acb-5a975a450d4f")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR012"
 			(at 134.62 45.72 0)
 			(effects
 				(font
@@ -3603,84 +3418,7 @@
 		(instances
 			(project "parachute"
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:Optocoupler_DC_PhotoNPN_AKEC")
-		(at 144.78 36.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6bf43835-ff7f-4b72-b203-50641f60aa1a")
-		(property "Reference" "U1"
-			(at 144.78 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "optocoupler"
-			(at 144.78 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic DC optocoupler with NPN phototransistor output, pins order: anode/cathode/emitter/collector"
-			(at 144.78 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30293f7e-2d2c-4769-a8f4-c5132b439ffe")
-		)
-		(pin "4"
-			(uuid "c089d1f9-109e-4c7c-bb63-4756292f43a8")
-		)
-		(pin "2"
-			(uuid "6930e315-69d5-42df-83f8-cf802c9bf29d")
-		)
-		(pin "3"
-			(uuid "2193ffa2-7e91-4a3e-bebd-b7e6a952d781")
-		)
-		(instances
-			(project ""
-				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "U1")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3688,7 +3426,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 119.38 90)
+		(at 78.74 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3696,8 +3434,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7316981b-d342-492e-a556-ac174c27eca6")
-		(property "Reference" "#PWR06"
-			(at 118.11 119.38 0)
+		(property "Reference" "#PWR09"
+			(at 85.09 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +3444,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 119.3799 90)
+			(at 82.55 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3715,7 +3453,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 119.38 0)
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,7 +3462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 119.38 0)
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +3471,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 119.38 0)
+			(at 78.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3747,7 +3485,7 @@
 		(instances
 			(project "parachute"
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "#PWR06")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3755,7 +3493,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 69.85 90)
+		(at 144.78 69.85 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3763,24 +3501,24 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f972321-b3e0-4179-bfe9-eba943a0f4ca")
-		(property "Reference" "R4"
-			(at 143.51 74.93 90)
+		(property "Reference" "R2"
+			(at 144.78 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 143.51 72.898 90)
+		(property "Value" "330"
+			(at 144.78 72.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 143.51 68.072 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 144.78 68.072 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,7 +3527,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 69.85 0)
+			(at 144.78 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,7 +3536,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 143.51 69.85 0)
+			(at 144.78 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3815,7 +3553,7 @@
 		(instances
 			(project "parachute"
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3831,7 +3569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83e0b099-8b0d-4a81-a4bf-2d064e951a18")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR02"
 			(at 35.56 77.47 0)
 			(effects
 				(font
@@ -3882,59 +3620,61 @@
 		(instances
 			(project "parachute"
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "#PWR012")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 83.82 119.38 180)
+		(lib_id "Isolator:LTV-814")
+		(at 144.78 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "93065c61-f1e7-4604-9c65-d71d1b980568")
-		(property "Reference" "#PWR05"
-			(at 83.82 113.03 0)
+		(uuid "93e91a08-8c1a-4b1d-b984-d820f31e19b5")
+		(property "Reference" "U1"
+			(at 144.78 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Value" "LTV-814"
+			(at 144.78 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+			(at 149.86 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 83.82 114.3 0)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-70-96-0013/LTV-8X4%20series%20201509.pdf"
+			(at 142.875 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 83.82 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 119.38 0)
+		(property "Description" "AC/DC Optocoupler, Vce 35V, CTR 20%, DIP4"
+			(at 144.78 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,12 +3683,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "4bf609ea-15ab-4c75-a787-e8b5b1617306")
+			(uuid "202b35bc-b649-49e3-8add-7834809e3c6e")
+		)
+		(pin "3"
+			(uuid "27228f84-77dd-408b-9986-304b1628d1e6")
+		)
+		(pin "4"
+			(uuid "f1a146f8-4467-4830-9663-957282409667")
+		)
+		(pin "2"
+			(uuid "4095fc58-5e74-46ee-90a2-9b5ad77f6a78")
 		)
 		(instances
 			(project "parachute"
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "#PWR05")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3964,7 +3713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96a3d8ad-fb6a-4ee9-8773-c65805eb6116")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR016"
 			(at 166.37 100.33 0)
 			(effects
 				(font
@@ -4015,7 +3764,7 @@
 		(instances
 			(project "parachute"
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "#PWR010")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4031,7 +3780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2b8514f-6a97-413c-b0c7-fb81065bfd3d")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 88.9 77.4699 0)
 			(effects
 				(font
@@ -4040,7 +3789,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "hmi"
 			(at 88.9 80.0099 0)
 			(effects
 				(font
@@ -4049,7 +3798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 86.36 77.47 0)
 			(effects
 				(font
@@ -4091,7 +3840,7 @@
 		(instances
 			(project ""
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4107,7 +3856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a70ce439-2191-4827-9e84-e8b80e7acee8")
-		(property "Reference" "J7"
+		(property "Reference" "J5"
 			(at 185.42 46.9899 0)
 			(effects
 				(font
@@ -4125,7 +3874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 182.88 48.26 0)
 			(effects
 				(font
@@ -4164,7 +3913,7 @@
 		(instances
 			(project ""
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "J7")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4180,7 +3929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a75477e1-e614-4f7c-830b-4d668ce021d6")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 157.48 33.02 90)
 			(effects
 				(font
@@ -4188,7 +3937,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 157.48 35.56 90)
 			(effects
 				(font
@@ -4196,7 +3945,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 157.48 41.148 90)
 			(effects
 				(font
@@ -4232,7 +3981,7 @@
 		(instances
 			(project "parachute"
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4314,7 +4063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba788558-43b1-4785-955f-ed1128cfa9a7")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR05"
 			(at 80.01 46.99 0)
 			(effects
 				(font
@@ -4364,159 +4113,7 @@
 		(instances
 			(project ""
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
-		(at 93.98 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb7be534-7549-4278-b0b0-b2ccd111f091")
-		(property "Reference" "J6"
-			(at 95.25 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "buckconverter"
-			(at 95.25 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 93.98 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39403d99-5ea7-4253-bdca-dc212f9320a6")
-		)
-		(pin "2"
-			(uuid "ca41aade-3011-4aa7-9ad6-048304c59931")
-		)
-		(pin "4"
-			(uuid "47cb208e-97be-4a7e-850c-fcda72845bc2")
-		)
-		(pin "3"
-			(uuid "efdc3857-daa0-4f7d-9572-85d52852045b")
-		)
-		(instances
-			(project ""
-				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:Optocoupler_DC_PhotoNPN_AKEC")
-		(at 156.21 67.31 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc6c24fa-2756-40ee-a2ff-26c273d53a04")
-		(property "Reference" "U3"
-			(at 156.21 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "optocoupler"
-			(at 156.21 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic DC optocoupler with NPN phototransistor output, pins order: anode/cathode/emitter/collector"
-			(at 156.21 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb27b473-4836-454e-aada-268a2cad3875")
-		)
-		(pin "4"
-			(uuid "1c5b786c-dbb1-4218-8487-518c65f37a5d")
-		)
-		(pin "2"
-			(uuid "2ff7c8da-403c-40d4-86f0-81dc23c1e63d")
-		)
-		(pin "3"
-			(uuid "dbe6c66a-f91c-427c-bf10-c55d075284c1")
-		)
-		(instances
-			(project "parachute"
-				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "U3")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4532,7 +4129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cefc41d0-70cd-4baa-86b4-c69a9f28e554")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR018"
 			(at 232.41 41.91 0)
 			(effects
 				(font
@@ -4582,7 +4179,7 @@
 		(instances
 			(project "parachute"
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "#PWR015")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4598,7 +4195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcbc2913-ee1f-4832-9336-301981752b48")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 234.95 40.6399 0)
 			(effects
 				(font
@@ -4607,7 +4204,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 234.95 43.1799 0)
 			(effects
 				(font
@@ -4616,7 +4213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 230.632 41.91 90)
 			(effects
 				(font
@@ -4652,7 +4249,7 @@
 		(instances
 			(project "parachute"
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4660,7 +4257,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 111.76 121.92 270)
+		(at 78.74 121.92 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4668,8 +4265,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd3c6a39-c5cf-47b6-8145-408ec70632f5")
-		(property "Reference" "#PWR013"
-			(at 107.95 121.92 0)
+		(property "Reference" "#PWR010"
+			(at 74.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4678,7 +4275,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 115.57 121.9199 90)
+			(at 82.55 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4687,7 +4284,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 121.92 0)
+			(at 78.74 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4696,7 +4293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 121.92 0)
+			(at 78.74 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4705,7 +4302,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 111.76 121.92 0)
+			(at 78.74 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4719,7 +4316,7 @@
 		(instances
 			(project "parachute"
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "#PWR013")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4735,7 +4332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e91f1cd4-1a6a-4624-8185-720995c5bfe7")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 74.93 57.15 0)
 			(effects
 				(font
@@ -4785,7 +4382,7 @@
 		(instances
 			(project ""
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4801,7 +4398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eed7c254-9ab7-4e15-b67a-229386d39ce2")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 245.11 34.2899 0)
 			(effects
 				(font
@@ -4819,7 +4416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 242.57 34.29 0)
 			(effects
 				(font
@@ -4855,7 +4452,7 @@
 		(instances
 			(project "parachute"
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -4871,7 +4468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f429ffc6-f3c8-4d53-a99c-17f705bfbc05")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR015"
 			(at 156.21 97.79 0)
 			(effects
 				(font
@@ -4922,7 +4519,84 @@
 		(instances
 			(project "parachute"
 				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
-					(reference "#PWR011")
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:LTV-814")
+		(at 156.21 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9aabd65-8755-49a4-b6f2-3b310da77af0")
+		(property "Reference" "U4"
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-814"
+			(at 156.21 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+			(at 151.13 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-70-96-0013/LTV-8X4%20series%20201509.pdf"
+			(at 158.115 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "AC/DC Optocoupler, Vce 35V, CTR 20%, DIP4"
+			(at 156.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d6afd5f-736c-4093-8a56-8917b7d913d8")
+		)
+		(pin "3"
+			(uuid "5439e299-21d1-4191-b9a3-95519482955f")
+		)
+		(pin "4"
+			(uuid "6ba4776f-9abb-4432-8f05-bc856ac31041")
+		)
+		(pin "2"
+			(uuid "62e26bcb-1248-467f-aaf0-e4e75c332325")
+		)
+		(instances
+			(project ""
+				(path "/60cb3bc1-3141-456c-a64d-e0e795894c5a"
+					(reference "U4")
 					(unit 1)
 				)
 			)
