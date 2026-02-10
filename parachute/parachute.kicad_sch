@@ -1250,7 +1250,7 @@
 				(pin bidirectional line
 					(at -5.08 -15.24 90)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1268,7 +1268,7 @@
 				(pin bidirectional line
 					(at -2.54 -15.24 90)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1286,7 +1286,7 @@
 				(pin bidirectional line
 					(at 0 -15.24 90)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1304,7 +1304,7 @@
 				(pin bidirectional line
 					(at 2.54 -15.24 90)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1322,7 +1322,7 @@
 				(pin bidirectional line
 					(at 5.08 -15.24 90)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1340,7 +1340,7 @@
 				(pin bidirectional line
 					(at 16.51 10.16 180)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1358,7 +1358,7 @@
 				(pin bidirectional line
 					(at 16.51 7.62 180)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1376,7 +1376,7 @@
 				(pin bidirectional line
 					(at 16.51 5.08 180)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1394,7 +1394,7 @@
 				(pin bidirectional line
 					(at 16.51 2.54 180)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1412,7 +1412,7 @@
 				(pin bidirectional line
 					(at 16.51 0 180)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1430,7 +1430,7 @@
 				(pin bidirectional line
 					(at 16.51 -2.54 180)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1448,7 +1448,7 @@
 				(pin bidirectional line
 					(at 16.51 -5.08 180)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1466,7 +1466,7 @@
 				(pin bidirectional line
 					(at 16.51 -7.62 180)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1484,7 +1484,7 @@
 				(pin bidirectional line
 					(at 16.51 -10.16 180)
 					(length 2.54)
-					(name "GPIO14"
+					(name "GPIO8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1973,10 +1973,6 @@
 		(uuid "3a96e9a3-d356-4854-bfc7-00e5b72f6285")
 	)
 	(no_connect
-		(at 195.58 110.49)
-		(uuid "071edc87-d3f2-4a1a-99cc-dd447e4a02d6")
-	)
-	(no_connect
 		(at 195.58 97.79)
 		(uuid "1b70e1c8-2c81-498d-b5a5-5971a5787997")
 	)
@@ -2001,12 +1997,16 @@
 		(uuid "65e26df1-3759-487f-b45b-8bb7cfd1c384")
 	)
 	(no_connect
-		(at 195.58 115.57)
-		(uuid "9257c0ba-836a-4c3d-b04f-fdf6bb458d18")
+		(at 162.56 105.41)
+		(uuid "6d5e8904-ab95-4739-9abd-c16af37464a4")
 	)
 	(no_connect
-		(at 195.58 107.95)
-		(uuid "95a2968f-de30-4dbf-82e9-42334c03f896")
+		(at 162.56 102.87)
+		(uuid "7f88f262-f2d3-4d1d-89be-97a9bcfa9b7d")
+	)
+	(no_connect
+		(at 195.58 115.57)
+		(uuid "9257c0ba-836a-4c3d-b04f-fdf6bb458d18")
 	)
 	(no_connect
 		(at 195.58 102.87)
@@ -2017,16 +2017,16 @@
 		(uuid "b6b85d53-2811-4585-8661-09af8e65838d")
 	)
 	(no_connect
-		(at 195.58 105.41)
-		(uuid "bc847b7a-243d-495f-abf0-608c3f623cc7")
+		(at 162.56 110.49)
+		(uuid "c92f4eb9-a733-4a44-a307-b8d7bb67c2fa")
+	)
+	(no_connect
+		(at 162.56 115.57)
+		(uuid "d5bc3f2e-eec5-4835-9d7c-8cd86605fe82")
 	)
 	(no_connect
 		(at 181.61 120.65)
 		(uuid "d664fe0f-567e-427f-89c1-c87179685547")
-	)
-	(no_connect
-		(at 184.15 120.65)
-		(uuid "f94eade5-dd91-45e6-b8f3-62406ae219c8")
 	)
 	(wire
 		(pts
@@ -2249,7 +2249,7 @@
 		(uuid "2bab7b70-648b-4ace-9a2b-bc7a78ab997a")
 	)
 	(label "TRIGGER"
-		(at 162.56 110.49 180)
+		(at 184.15 120.65 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2279,22 +2279,22 @@
 		(uuid "5a5a7a79-cd8a-44fe-b59e-01d8c9a8ff46")
 	)
 	(label "LED_OPEN"
-		(at 162.56 102.87 180)
+		(at 195.58 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "5f9acf20-4212-43cb-a887-776557e9aba7")
 	)
 	(label "LED_TIMER_TRIGGED"
-		(at 162.56 105.41 180)
+		(at 195.58 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "a1369e94-76fb-48fc-b5da-1dd01a39e0b1")
 	)
@@ -2319,17 +2319,17 @@
 		(uuid "bda99947-c617-4d79-8cb5-e0c97063671a")
 	)
 	(label "SERVO"
-		(at 162.56 113.03 180)
+		(at 195.58 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "bf4a97d7-a207-497c-84b5-cd1a62c55df6")
 	)
 	(label "parachute_open"
-		(at 162.56 115.57 180)
+		(at 162.56 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
