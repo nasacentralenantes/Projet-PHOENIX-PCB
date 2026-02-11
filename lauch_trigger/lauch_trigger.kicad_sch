@@ -631,7 +631,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal"
+		(property "Footprint" "nasa:Jack_3.5mm_PJ320D_Horizontal"
 			(at 106.68 95.25 0)
 			(effects
 				(font
@@ -705,7 +705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal"
+		(property "Footprint" "nasa:Jack_3.5mm_PJ320D_Horizontal"
 			(at 106.68 72.39 0)
 			(effects
 				(font

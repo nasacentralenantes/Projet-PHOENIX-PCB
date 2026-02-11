@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "C:\\Users\\amest\\Documents\\alexandre\\cours\\centrale\\nasa\\Projet-PHOENIX-PCB\\lauch_trigger\\lauch_trigger.kicad_sch")
-    (date "2026-02-04T14:10:11+0100")
+    (date "2026-02-11T14:52:21+0100")
     (tool "Eeschema 9.0.7")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -22,11 +22,11 @@
   (components
     (comp (ref "J1")
       (value "jack_A")
-      (footprint "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal")
+      (footprint "nasa:Jack_3.5mm_PJ320D_Horizontal")
       (datasheet "~")
       (description "Audio Jack, 4 Poles (TRRS)")
       (fields
-        (field (name "Footprint") "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal")
+        (field (name "Footprint") "nasa:Jack_3.5mm_PJ320D_Horizontal")
         (field (name "Datasheet") "~")
         (field (name "Description") "Audio Jack, 4 Poles (TRRS)"))
       (libsource (lib "Connector_Audio") (part "AudioJack4") (description "Audio Jack, 4 Poles (TRRS)"))
@@ -38,11 +38,11 @@
       (tstamps "fea96712-c89e-4669-b3e5-056c4ea9a0ba"))
     (comp (ref "J2")
       (value "jack_B")
-      (footprint "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal")
+      (footprint "nasa:Jack_3.5mm_PJ320D_Horizontal")
       (datasheet "~")
       (description "Audio Jack, 4 Poles (TRRS)")
       (fields
-        (field (name "Footprint") "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal")
+        (field (name "Footprint") "nasa:Jack_3.5mm_PJ320D_Horizontal")
         (field (name "Datasheet") "~")
         (field (name "Description") "Audio Jack, 4 Poles (TRRS)"))
       (libsource (lib "Connector_Audio") (part "AudioJack4") (description "Audio Jack, 4 Poles (TRRS)"))
