@@ -1513,7 +1513,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
 			(at 138.43 120.65 0)
 			(effects
 				(font
@@ -1590,7 +1590,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
 			(at 153.67 101.6 0)
 			(effects
 				(font
@@ -1667,7 +1667,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
 			(at 153.67 95.25 0)
 			(effects
 				(font
@@ -1810,7 +1810,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 161.29 109.728 90)
 			(effects
 				(font
@@ -2082,7 +2082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_S5B-XH-A_1x05_P2.50mm_Horizontal"
 			(at 182.88 105.41 0)
 			(effects
 				(font
@@ -2224,7 +2224,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
 			(at 138.43 107.95 0)
 			(effects
 				(font
@@ -2300,7 +2300,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 130.81 109.728 90)
 			(effects
 				(font
@@ -2502,7 +2502,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
 			(at 153.67 107.95 0)
 			(effects
 				(font
@@ -2644,7 +2644,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
 			(at 138.43 95.25 0)
 			(effects
 				(font
@@ -2721,7 +2721,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
 			(at 153.67 114.3 0)
 			(effects
 				(font
@@ -2797,7 +2797,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 130.81 97.028 90)
 			(effects
 				(font
@@ -2934,7 +2934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
 			(at 106.68 113.03 0)
 			(effects
 				(font
@@ -3008,7 +3008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
 			(at 106.68 97.79 0)
 			(effects
 				(font
@@ -3081,7 +3081,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
 			(at 138.43 101.6 0)
 			(effects
 				(font
@@ -3158,7 +3158,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 161.29 103.378 90)
 			(effects
 				(font
@@ -3225,7 +3225,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 130.81 116.078 90)
 			(effects
 				(font
@@ -3293,7 +3293,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 161.29 97.028 90)
 			(effects
 				(font
@@ -3361,7 +3361,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 161.29 116.078 90)
 			(effects
 				(font
@@ -3494,7 +3494,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 130.81 122.428 90)
 			(effects
 				(font
@@ -3627,7 +3627,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
 			(at 138.43 114.3 0)
 			(effects
 				(font
@@ -3703,7 +3703,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 130.81 103.378 90)
 			(effects
 				(font
