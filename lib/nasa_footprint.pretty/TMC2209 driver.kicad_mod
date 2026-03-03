@@ -55,6 +55,17 @@
 	)
 	(attr smd)
 	(fp_rect
+		(start -8.89 3.81)
+		(end -6.35 24.13)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4445baca-38c1-4458-a968-e0a2088e3e2c")
+	)
+	(fp_rect
 		(start -6.35 8.89)
 		(end -3.81 19.05)
 		(stroke
@@ -64,6 +75,17 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "7499fbd3-e42d-4025-9084-8a119006f377")
+	)
+	(fp_rect
+		(start 3.81 3.81)
+		(end 6.35 24.13)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b848cecf-045c-4640-829f-c2ff7f1f90fb")
 	)
 	(fp_text user "MOTOR"
 		(at -4.572 14.224 90)
