@@ -171,15 +171,15 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/PHOENIX_SENSORS/GY-NEO6MV2.step"
+	(model "${KICAD9_3DMODEL_DIR}/PHOENIX_SENSORS/NEO-6M.STEP"
 		(offset
-			(xyz -1.5 -22.4 0)
+			(xyz -18.5 12.5 2)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 -0 -0)
+			(xyz -0 -0 90)
 		)
 	)
 )

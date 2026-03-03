@@ -195,7 +195,7 @@
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/PHOENIX_SENSORS/BME280_SENSOR_MODULE.step"
 		(offset
-			(xyz 2.5 0 2.5)
+			(xyz 2.5 0 0.5)
 		)
 		(scale
 			(xyz 1 1 1)

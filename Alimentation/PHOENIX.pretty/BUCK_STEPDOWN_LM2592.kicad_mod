@@ -56,52 +56,12 @@
 	(attr smd)
 	(fp_line
 		(start -20.4 -11)
-		(end -20.4 10)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "c61bd97a-ce53-42a4-a482-e0e03e16fe04")
-	)
-	(fp_line
-		(start -20.4 10)
-		(end 22.6 10)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "b998a96f-5c73-4d13-bb12-a0f62f07a855")
-	)
-	(fp_line
-		(start 22.6 -11)
-		(end -20.4 -11)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "283a27c4-085b-47b1-b5d3-08b95f607996")
-	)
-	(fp_line
-		(start 22.6 10)
-		(end 22.6 -11)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "1bb25520-e46a-49ff-86ef-c01ea43e6dd0")
-	)
-	(fp_line
-		(start -20.4 -11)
 		(end 22.6 -11)
 		(stroke
 			(width 0.2)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "0030b17b-cc7c-48de-bd8e-3b0cd18bfd64")
 	)
 	(fp_line
@@ -109,9 +69,9 @@
 		(end -20.4 -11)
 		(stroke
 			(width 0.2)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "9ecfde25-35f2-47f7-bb18-7288d4cefed0")
 	)
 	(fp_line
@@ -119,9 +79,9 @@
 		(end 22.6 10)
 		(stroke
 			(width 0.2)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "455cafa6-ade9-4475-9ba5-7b51f1094fea")
 	)
 	(fp_line
@@ -129,54 +89,10 @@
 		(end 22.6 -11)
 		(stroke
 			(width 0.2)
-			(type default)
+			(type solid)
 		)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "4a746a8c-98bd-4900-bf92-09b45a50412b")
-	)
-	(fp_circle
-		(center -18.9 -9.25)
-		(end -18.4 -9.25)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "00fc98fc-39e5-4215-aba6-15ee0f30ab75")
-	)
-	(fp_circle
-		(center -18.9 8.25)
-		(end -18.4 8.25)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "f65bc4ab-b973-4eef-9fca-757aa1b7d8b8")
-	)
-	(fp_circle
-		(center 21.1 -9.25)
-		(end 21.6 -9.25)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "01aa610d-4a60-4227-a2b9-a1da371933b4")
-	)
-	(fp_circle
-		(center 21.1 8.25)
-		(end 21.6 8.25)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "4d65cac4-17ac-4375-ac17-8547fd76bbbe")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -0.2 0.3 0)
@@ -226,7 +142,7 @@
 		(net 0)
 		(net_name "")
 		(layer "F.SilkS")
-		(uuid "c2ab7c6c-576c-4f6a-b177-2b971427be58")
+		(uuid "fa301382-620a-4c59-afbb-01252c8f4709")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -250,14 +166,14 @@
 		)
 		(polygon
 			(pts
-				(xy -20.4 -11) (xy -20.4 10) (xy 22.6 10) (xy 22.6 -11)
+				(xy 22.6 -11) (xy -20.4 -11) (xy -20.4 10) (xy 22.6 10)
 			)
 		)
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/PHOENIX_SENSORS/LM2596 DC-DC StepDown Converter v1.step"
 		(offset
-			(xyz 22.5 -0.5 11.5)
+			(xyz 22.5 0 12)
 		)
 		(scale
 			(xyz 1 1 1)
