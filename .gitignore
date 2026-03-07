@@ -1,3 +1,7 @@
 **/*backups/
 **/*.step
+**/*.gbr
+**/*.drl
+**/*.gbrjob
+**/*.zip
 !/lib/**/*.step
