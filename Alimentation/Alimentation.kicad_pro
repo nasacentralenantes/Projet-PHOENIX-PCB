@@ -524,6 +524,14 @@
       {
         "netclass": "LOGIC_PWR",
         "pattern": "+3V3_LORA"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "+VIN_PARA"
+      },
+      {
+        "netclass": "LOGIC_PWR",
+        "pattern": "+5V_PARA"
       }
     ]
   },
@@ -535,7 +543,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Alimentation.step",
       "svg": "",
       "vrml": ""
     },
