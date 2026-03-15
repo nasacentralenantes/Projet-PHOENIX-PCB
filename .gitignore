@@ -4,4 +4,6 @@
 **/*.drl
 **/*.gbrjob
 **/*.zip
+**/*.net
+**/fp-info-cache
 !/lib/**/*.step
