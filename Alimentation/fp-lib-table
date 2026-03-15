@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "PHOENIX")(type "KiCad")(uri "${KIPRJMOD}/PHOENIX.pretty")(options "")(descr ""))
   (lib (name "PHOENIX_CON")(type "KiCad")(uri "${KIPRJMOD}/Connector_AMASS.pretty")(options "")(descr ""))
+  (lib (name "nasa")(type "KiCad")(uri "${KIPRJMOD}/../lib/nasa_footprint.pretty")(options "")(descr ""))
 )
