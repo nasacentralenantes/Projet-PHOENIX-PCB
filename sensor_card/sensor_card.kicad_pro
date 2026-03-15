@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -461,7 +461,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "PHOENIX"
+      "PHOENIX",
+      "nasa"
     ],
     "pinned_symbol_libs": []
   },
@@ -484,20 +485,38 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.25,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
-        "clearance": 0.25,
-        "name": "Logic_power",
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "powerA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "via_diameter": 0.7,
-        "via_drill": 0.35
+        "track_width": 0.4,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -507,20 +526,12 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Logic_power",
-        "pattern": "+3V3"
-      },
-      {
-        "netclass": "Logic_power",
-        "pattern": "+3V3_LORA"
-      },
-      {
-        "netclass": "Logic_power",
+        "netclass": "power",
         "pattern": "+5V"
       },
       {
-        "netclass": "Default",
-        "pattern": ""
+        "netclass": "powerA",
+        "pattern": "+3V*"
       }
     ]
   },
@@ -528,11 +539,11 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
-      "plot": "",
+      "netlist": "sensor_card.net",
+      "plot": "fab/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "sensor_card.step",
+      "step": "fab/sensor_card.step",
       "svg": "",
       "vrml": ""
     },
@@ -638,7 +649,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
